@@ -1,7 +1,7 @@
-# AdventOfCode2021
-Mis soluciones para [AdventOfCode2021](https://adventofcode.com/2021)
+# Advent of code 2021
+My solutions for [Advent of code 2021](https://adventofcode.com/2021).
 
-| Día | Puzzle                                                          | Soluciones           |
+| Day | Puzzle                                                          | Solutions            |
 |-----|-----------------------------------------------------------------|----------------------|
 | 1   | [Sonar Sweep](https://adventofcode.com/2021/day/1)              | [01](./01/README.md) |
 | 2   | [Dive!](https://adventofcode.com/2021/day/2)                    | [02](./02/README.md) |
