@@ -1,5 +1,5 @@
-# Advent Of Code
-My solutions for the [AdventOfCode](https://adventofcode.com) contests I have competed in:
+# Advent of code
+My solutions for the [Advent of code](https://adventofcode.com) contests I have competed in:
 
 | Year                                  | Solution                 | Stars |
 |---------------------------------------|--------------------------|-------|
@@ -9,7 +9,7 @@ My solutions for the [AdventOfCode](https://adventofcode.com) contests I have co
 | [2022](https://adventofcode.com/2022) | [2022](./2022/README.md) | 50*   |
 
 
-My solutions for the [AdventOfCode](https://adventofcode.com) contests I have used to practice:
+My solutions for the [Advent of code](https://adventofcode.com) contests I have used to practice:
 
 | Year                                  | Solution                 | Stars |
 |---------------------------------------|--------------------------|-------|
