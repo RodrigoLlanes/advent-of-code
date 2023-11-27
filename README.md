@@ -13,5 +13,8 @@ My solutions for the [Advent of code](https://adventofcode.com) contests I have 
 
 | Year                                  | Solution                 | Stars |
 |---------------------------------------|--------------------------|-------|
-| [2018](https://adventofcode.com/2018) | [2018](./2018/README.md) | 28*   |
+| [2018](https://adventofcode.com/2018) | [2018](./2018/README.md) | 30*   |
 | [2017](https://adventofcode.com/2017) | [2017](./2017/README.md) | 10*   |
+
+
+This repo also contains [PyCP](./pycp/README.md) a python library for competitive programming, focused on AOC.
