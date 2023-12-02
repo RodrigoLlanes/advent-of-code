@@ -1,4 +1,4 @@
-from pycp import Heap
+from pycp.structures import Heap
 
 
 def test_heap():

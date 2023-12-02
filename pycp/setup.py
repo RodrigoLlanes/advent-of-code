@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='pycp',
-    packages=find_packages(include=['pycp']),
+    packages=find_packages(include=['pycp', 'pycp.structures']),
     version='0.0.1',
     description='A python library for competitive programming',
     author='Rodrigo Llanes Lacomba',
