@@ -1,7 +1,7 @@
 # Own code
-from .aoc import data
-from .structures import Heap
-from .structures import Point
+from .aoc import *
+from .structures import *
+from .structures import *
 
 # Built-in
 from collections import deque, defaultdict

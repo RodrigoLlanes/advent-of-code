@@ -7,7 +7,7 @@ My solutions for the [Advent of code](https://adventofcode.com) contests I have 
 | [2020](https://adventofcode.com/2020) | [2020](./2020/README.md) | 50*   |
 | [2021](https://adventofcode.com/2021) | [2021](./2021/README.md) | 50*   |
 | [2022](https://adventofcode.com/2022) | [2022](./2022/README.md) | 50*   |
-| [2023](https://adventofcode.com/2023) | [2023](./2023/README.md) | 2*    |
+| [2023](https://adventofcode.com/2023) | [2023](./2023/README.md) | 6*    |
 
 
 My solutions for the [Advent of code](https://adventofcode.com) contests I have used to practice:
