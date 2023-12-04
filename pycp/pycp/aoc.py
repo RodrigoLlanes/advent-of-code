@@ -1,10 +1,12 @@
 import os
 import time
 from os import environ, path
-from typing import List, Callable
+from typing import List, Callable, TypeVar, Generic
 from requests import get
 from pathlib import Path
 from inspect import stack
+
+T = TypeVar("T")
 
 
 def data(day: int = 0, year: int = 0, session: str = None, caller_dir: Path = None) -> List[str]:
@@ -25,19 +27,22 @@ def data(day: int = 0, year: int = 0, session: str = None, caller_dir: Path = No
     return open(input_path, 'r').read().splitlines()
 
 
-def run(f: Callable[[List[str]], None]) -> None:
+def timer(lines: List[str], f: Callable[[List[T]], None], parser: Callable[[str], T] = None):
+    lines = lines if parser is None else list(map(parser, lines))
+    t = time.time()
+    f(lines)
+    return time.time() - t
+
+
+def run(f: Callable[[List[str]], None], parser: Callable[[str], T] = None) -> None:
     caller_dir = Path(stack()[1][1]).parent
     tests = [file for file in map(Path, os.listdir(caller_dir)) if file.is_file() and 'test' in file.name]
     for file in tests:
         print(f'{file.name}:')
-        t0 = time.time()
-        f(open(file, 'r').read().splitlines())
-        t1 = time.time()
-        print(f'time {t1 - t0}')
+        t = timer(open(file, 'r').read().splitlines(), f, parser)
+        print(f'time {t}')
         print()
 
     print(f'input data:')
-    t0 = time.time()
-    f(data(caller_dir=caller_dir))
-    t1 = time.time()
-    print(f'time {t1 - t0}')
+    t = timer(data(caller_dir=caller_dir), f, parser)
+    print(f'time {t}')
