@@ -7,3 +7,4 @@ dist
 *.egg-info
 .eggs
 buid-and-install.bat
+**/input
