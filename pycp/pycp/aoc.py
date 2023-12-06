@@ -10,7 +10,7 @@ T = TypeVar("T")
 
 
 def data(day: int = 0, year: int = 0, session: str = None, caller_dir: Path = None) -> List[str]:
-    if path is None:
+    if caller_dir is None:
         caller_dir = Path(stack()[1][1]).parent
     input_path = path.join(caller_dir, 'input')
     if not path.isfile(input_path):
@@ -22,9 +22,12 @@ def data(day: int = 0, year: int = 0, session: str = None, caller_dir: Path = No
             session = environ['aoc_session']
 
         response = get(f'https://adventofcode.com/{year}/day/{day}/input', cookies={'session': session})
-        open(input_path, 'w').write(response.text)
+        with open(input_path, 'w') as out:
+            out.write(response.text)
 
-    return open(input_path, 'r').read().splitlines()
+    with open(input_path, 'r') as inp:
+        lines = open(input_path, 'r').read().splitlines()
+    return lines
 
 
 def timer(lines: List[str], f: Callable[[List[T]], None], parser: Callable[[str], T] = None):
