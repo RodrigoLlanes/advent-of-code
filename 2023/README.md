@@ -8,3 +8,4 @@ My solutions for [Advent of code 2023](https://adventofcode.com/2023).
 | 3   | [Gear Ratios](https://adventofcode.com/2023/day/3)                     | [03](./03) |
 | 4   | [Scratchcards](https://adventofcode.com/2023/day/4)                    | [04](./04) |
 | 5   | [If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5) | [05](./05) |
+| 6   | [Wait For It](https://adventofcode.com/2023/day/6)                     | [06](./06) |
