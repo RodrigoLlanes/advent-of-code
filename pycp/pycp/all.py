@@ -7,3 +7,4 @@ from .structures import *
 from collections import deque, defaultdict
 from math import prod
 from functools import reduce
+from math import lcm, gcd
