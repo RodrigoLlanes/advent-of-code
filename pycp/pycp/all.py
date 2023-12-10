@@ -1,7 +1,6 @@
 # Own code
 from .aoc import *
 from .structures import *
-from .structures import *
 
 # Built-in
 from collections import deque, defaultdict

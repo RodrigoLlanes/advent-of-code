@@ -2,35 +2,44 @@ from typing import List
 
 
 class Point:
-    def __init__(self, *coords: float) -> None:
-        self.coords: List[float] = list(coords)
+    def __init__(self, *coords: int) -> None:
+        self.coords: List[int] = list(coords)
 
     def manhattan(self) -> int:
         return sum(self.coords)
 
     @property
-    def x(self) -> float:
+    def x(self) -> int:
         return self.coords[0]
 
     @x.setter
-    def x(self, value: float) -> None:
+    def x(self, value: int) -> None:
         self.coords[0] = value
 
     @property
-    def y(self) -> float:
+    def y(self) -> int:
         return self.coords[1]
 
     @y.setter
-    def y(self, value: float) -> None:
+    def y(self, value: int) -> None:
         self.coords[1] = value
 
     @property
-    def z(self) -> float:
+    def z(self) -> int:
         return self.coords[2]
 
     @z.setter
-    def z(self, value: float) -> None:
+    def z(self, value: int) -> None:
         self.coords[2] = value
+
+    def __getitem__(self, item: int) -> int:
+        return self.coords[item]
+
+    def __setitem__(self, key: int, value: int) -> None:
+        self.coords[key] = value
+
+    def __delitem__(self, key: int) -> None:
+        del self.coords[key]
 
     def __hash__(self) -> int:
         return hash(tuple(self.coords))
@@ -41,19 +50,19 @@ class Point:
     def __sub__(self, other: 'Point') -> 'Point':
         return Point(*[self.coords[i] - other.coords[i] for i in range(len(self.coords))])
 
-    def __mul__(self, other: float) -> 'Point':
+    def __mul__(self, other: int) -> 'Point':
         return Point(*[coord * other for coord in self.coords])
 
-    def __truediv__(self, other: float) -> 'Point':
+    def __truediv__(self, other: int) -> 'Point':
         return Point(*[coord / other for coord in self.coords])
 
-    def __floordiv__(self, other: float) -> 'Point':
+    def __floordiv__(self, other: int) -> 'Point':
         return Point(*[coord // other for coord in self.coords])
 
-    def __mod__(self, other: float) -> 'Point':
+    def __mod__(self, other: int) -> 'Point':
         return Point(*[coord % other for coord in self.coords])
 
-    def __pow__(self, other: float) -> 'Point':
+    def __pow__(self, other: int) -> 'Point':
         return Point(*[coord ** other for coord in self.coords])
 
     def __neg__(self) -> 'Point':

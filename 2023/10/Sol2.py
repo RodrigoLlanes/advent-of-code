@@ -20,12 +20,13 @@ def parse(line: str):
 
 
 def main(lines: list) -> None:
+    grid = Grid(lines, True)
+
     s = None
-    for y, line in enumerate(lines):
-        for x, symb in enumerate(line):
-            if symb == 'S':
-                s = Point(x, y)
-                break
+    for p, sym in grid.items():
+        if sym == 'S':
+            s = p
+            break
 
     points = [s]
     while len(points) == 1 or points[0] != s:
@@ -35,34 +36,25 @@ def main(lines: list) -> None:
                 continue
             if p.y >= len(lines) or p.x >= len(lines[0]):
                 continue
-            if (lines[p.y][p.x] == 'S' or any(d == -dir for d in dirs[lines[p.y][p.x]])) and \
-               (lines[s.y][s.x] == 'S' or any(d == dir for d in dirs[lines[s.y][s.x]])):
+            if (grid[p] == 'S' or -dir in dirs[grid[p]]) and (grid[s] == 'S' or dir in dirs[grid[s]]):
                 points.append(p)
                 s = p
                 break
     points = set(points)
 
-    k = []
-    for d in DIRECTIONS4:
-        p = s + d
-        if s + d in points and any(-d == dir for dir in dirs[lines[p.y][p.x]]):
-            k.append(d)
-    k = tuple(k)
+    k = tuple(d for d in DIRECTIONS4 if -d in dirs[grid[s + d]])
     if k in inv_dirs:
         lines[s.y][s.x] = inv_dirs[k]
     else:
         lines[s.y][s.x] = inv_dirs[tuple(reversed(k))]
 
-
     count = 0
     cross = 0
-    for y, line in enumerate(lines):
-        for x, symb in enumerate(line):
-            p = Point(x, y)
-            if p in points and any(s.y == 1 for s in dirs[symb]):
-                cross += 1
-            elif p not in points and cross % 2 == 1:
-                count += 1
+    for p, sym in grid.items():
+        if p in points and any(s.y == 1 for s in dirs[sym]):
+            cross += 1
+        elif p not in points and cross % 2 == 1:
+            count += 1
     print(count)
 
 

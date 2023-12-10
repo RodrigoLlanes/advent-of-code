@@ -1,2 +1,3 @@
-from .heap import Heap
-from .point import Point
+from .heap import *
+from .point import *
+from .grid import *
