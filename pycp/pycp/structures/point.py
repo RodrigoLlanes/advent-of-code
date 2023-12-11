@@ -5,8 +5,10 @@ class Point:
     def __init__(self, *coords: int) -> None:
         self.coords: List[int] = list(coords)
 
-    def manhattan(self) -> int:
-        return sum(self.coords)
+    def manhattan(self, other: 'Point' = None) -> int:
+        if other is not None:
+            return sum(abs(c0 - c1) for c0, c1 in zip(self.coords, other.coords))
+        return sum(map(abs, self.coords))
 
     @property
     def x(self) -> int:
