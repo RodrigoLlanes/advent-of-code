@@ -15,3 +15,4 @@ My solutions for [Advent of code 2023](https://adventofcode.com/2023).
 | 10  | [Pipe Maze](https://adventofcode.com/2023/day/10)                      | [10](./10) |
 | 11  | [Cosmic Expansion](https://adventofcode.com/2023/day/11)               | [11](./11) |
 | 12  | [Hot Springs](https://adventofcode.com/2023/day/12)                    | [12](./12) |
+| 13  | [Point of Incidence](https://adventofcode.com/2023/day/13)             | [13](./13) |
