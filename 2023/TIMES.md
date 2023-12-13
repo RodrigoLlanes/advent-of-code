@@ -29,6 +29,6 @@ My personal times on the [Advent of code 2023](https://adventofcode.com/2023) gl
         <tr><td>10</td> <td>00:19:34</td> <td>531</td> <td>00:36:50</td> <td>104</td></tr>
         <tr><td>11</td> <td>00:13:44</td> <td>979</td> <td>00:21:19</td> <td>1104</td></tr>
         <tr><td>12</td> <td>00:17:17</td> <td>606</td> <td>00:26:38</td> <td>179</td></tr>
-        <tr><td>13</td> <td>00:08:46</td> <td style="color:gold;">92</td> <td>00:18:44</td> <td>312</td></tr>
+        <tr><td>13</td> <td style="color:gold; text-shadow:1px 1px 10px;">00:08:46</td> <td style="color:gold; text-shadow:1px 1px 10px;">92</td> <td>00:18:44</td> <td>312</td></tr>
     </tbody>
 </table>
