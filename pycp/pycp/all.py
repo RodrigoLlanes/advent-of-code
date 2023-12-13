@@ -1,5 +1,6 @@
 # Own code
-from .aoc import *
+from .aoc import data, run
+from .cache import cache
 from .structures import *
 
 # Built-in

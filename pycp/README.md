@@ -7,6 +7,8 @@ This library contains commonly used data structures and algorithms, and also bas
 the AOC.
 
 ### Features:
-- [Heap](pycp/structures/heap.py): wrapper for the heapq python built-in module.
-- [Point](pycp/structures/point.py): basic N dimensional point class.
-- [aoc](pycp/aoc.py): automatic AOC input downloading and reading.
+- [Heap](./pycp/structures/heap.py): wrapper for the heapq python built-in module.
+- [Point](./pycp/structures/point.py): basic N dimensional point class.
+- [Grid](./pycp/structures/grid.py): basic grid class, indexable with `Point`.
+- [cache](./pycp/cache.py): custom cache function, with key arguments selection.
+- [aoc](./pycp/aoc.py): automatic AOC input downloading and reading.

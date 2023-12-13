@@ -1,3 +1,3 @@
-from .heap import *
-from .point import *
-from .grid import *
+from .heap import Heap
+from .point import Point, DIRECTIONS4, DIRECTIONS8
+from .grid import Grid

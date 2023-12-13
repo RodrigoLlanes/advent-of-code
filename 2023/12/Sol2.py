@@ -6,19 +6,7 @@ def parse(line: str):
     return list('?'.join([a] * 5)), list(map(int, b.split(','))) * 5
 
 
-mem = {}
-
-
-def cache(f):
-    def w(line, sizes, index, si):
-        if (index, si) not in mem:
-            mem[index, si] = f(line, sizes, index, si)
-        return mem[index, si]
-
-    return w
-
-
-@cache
+@cache(2, 3)
 def solve(line, sizes, index, si):
     if index >= len(line):
         return 1 if si == len(sizes) else 0
@@ -42,7 +30,7 @@ def solve(line, sizes, index, si):
 def main(lines: list) -> None:
     c = 0
     for a, b in lines:
-        mem.clear()
+        solve.clear()
         c += solve(a, b, 0, 0)
     print(c)
 
