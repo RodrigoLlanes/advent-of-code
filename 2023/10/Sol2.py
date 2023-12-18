@@ -19,7 +19,7 @@ def parse(line: str):
     return list(line)
 
 
-# As I learned with hours of suffering in day 18 part 2 there was a formula, see Shoelace's formula
+# As I learned with hours of suffering in day 18 part 2, there was a formula, see Shoelace's formula
 def main(lines: list) -> None:
     grid = Grid(lines, True)
 
