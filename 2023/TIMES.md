@@ -35,5 +35,8 @@ My personal times on the [Advent of code 2023](https://adventofcode.com/2023) gl
 <tr><td>16</td> <td>00:14:57</td> <td>268</td> <td>00:19:55</td> <td>281</td></tr>
 <tr><td>17</td> <td>00:27:19</td> <td>612</td> <td>00:30:34</td> <td>413</td></tr>
 <tr><td>18</td> <td>00:29:08</td> <td>1517</td> <td>02:36:18</td> <td>3203</td></tr>
+<tr><td>19</td> <td>00:14:20</td> <td>295</td> <td>02:31:43</td> <td>3081</td></tr>
+<tr><td>20</td> <td>00:31:27</td> <td>289</td> <td>02:40:38</td> <td>2158</td></tr>
+<tr><td>21</td> <td>00:09:09</td> <td>644</td> <td>02:40:35</td> <td>1179</td></tr>
     </tbody>
 </table>

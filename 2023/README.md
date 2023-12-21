@@ -21,3 +21,6 @@ My solutions for [Advent of code 2023](https://adventofcode.com/2023).
 | 16  | [The Floor Will Be Lava](https://adventofcode.com/2023/day/16)         | [16](./16) |
 | 17  | [Clumsy Crucible](https://adventofcode.com/2023/day/17)                | [17](./17) |
 | 18  | [Lavaduct Lagoon](https://adventofcode.com/2023/day/18)                | [18](./18) |
+| 19  | [Aplenty](https://adventofcode.com/2023/day/19)                        | [19](./19) |
+| 20  | [Pulse Propagation](https://adventofcode.com/2023/day/20)              | [20](./20) |
+| 21  | [Step Counter](https://adventofcode.com/2023/day/21)                   | [21](./21) |
