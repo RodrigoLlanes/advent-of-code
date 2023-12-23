@@ -25,3 +25,4 @@ My solutions for [Advent of code 2023](https://adventofcode.com/2023).
 | 20  | [Pulse Propagation](https://adventofcode.com/2023/day/20)              | [20](./20) |
 | 21  | [Step Counter](https://adventofcode.com/2023/day/21)                   | [21](./21) |
 | 22  | [Sand Slabs](https://adventofcode.com/2023/day/22)                     | [22](./22) |
+| 23  | [A Long Walk](https://adventofcode.com/2023/day/23)                    | [23](./23) |
