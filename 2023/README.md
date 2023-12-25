@@ -27,3 +27,4 @@ My solutions for [Advent of code 2023](https://adventofcode.com/2023).
 | 22  | [Sand Slabs](https://adventofcode.com/2023/day/22)                     | [22](./22) |
 | 23  | [A Long Walk](https://adventofcode.com/2023/day/23)                    | [23](./23) |
 | 24  | [Never Tell Me The Odds](https://adventofcode.com/2023/day/24)         | [24](./24) |
+| 25  | [Snowverload](https://adventofcode.com/2023/day/25)                    | [25](./25) |
