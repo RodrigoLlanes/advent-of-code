@@ -18,7 +18,7 @@ My solutions for [Advent of code 2018](https://adventofcode.com/2018).
 | 13  | [Mine Cart Madness](https://adventofcode.com/2018/day/13)                    | [13](./13) |
 | 14  | [Chocolate Charts](https://adventofcode.com/2018/day/14)                     | [14](./14) |
 | 15  | [Beverage Bandits](https://adventofcode.com/2018/day/15)                     | [15](./15) |
-| 16  | [Chronal Classification](https://adventofcode.com/2018/day/16)               | -          |
+| 16  | [Chronal Classification](https://adventofcode.com/2018/day/16)               | [16](./16) |
 | 17  | [Reservoir Research](https://adventofcode.com/2018/day/17)                   | -          |
 | 18  | [Settlers of The North Pole](https://adventofcode.com/2018/day/18)           | -          |
 | 19  | [Go With The Flow](https://adventofcode.com/2018/day/19)                     | -          |

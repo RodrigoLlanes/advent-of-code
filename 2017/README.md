@@ -8,7 +8,7 @@ My solutions for [Advent of code 2017](https://adventofcode.com/2017).
 | 3   | [Spiral Memory](https://adventofcode.com/2017/day/3)                           | [03](./03) |
 | 4   | [High-Entropy Passphrases](https://adventofcode.com/2017/day/4)                | [04](./04) |
 | 5   | [A Maze of Twisty Trampolines, All Alike](https://adventofcode.com/2017/day/5) | [05](./05) |
-| 6   | [Memory Reallocation](https://adventofcode.com/2017/day/6)                     | -          |
+| 6   | [Memory Reallocation](https://adventofcode.com/2017/day/6)                     | [06](./06) |
 | 7   | [Recursive Circus](https://adventofcode.com/2017/day/7)                        | -          |
 | 8   | [I Heard You Like Registers](https://adventofcode.com/2017/day/8)              | -          |
 | 9   | [Stream Processing](https://adventofcode.com/2017/day/9)                       | -          |
