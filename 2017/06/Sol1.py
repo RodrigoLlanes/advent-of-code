@@ -24,3 +24,4 @@ def main(lines: list[list[int]]):
 
 if __name__ == '__main__':
     run(main, parse, env_path='../../.env')
+
