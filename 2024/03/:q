@@ -1,0 +1,16 @@
+from pycp.all import run
+from itertools import pairwise
+
+
+def parse(line: str):
+    return list(map(int, line.split()))
+
+
+def main(lines: list[list[int]]):
+    res = 
+    print(res)
+
+
+if __name__ == '__main__':
+    run(main, parse)
+
