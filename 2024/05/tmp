@@ -1,0 +1,40 @@
+from pycp.all import run, Grid
+import re
+from collections import defaultdict
+
+
+def parse(line: str):
+    return line 
+
+def main(lines: list[list[int]]):
+    res = 0
+    a, b = '\n'.join(lines).split('\n\n')
+    rules = defaultdict(lambda: [set(),set()])
+    for line in a.split('\n'):
+        first, second = map(int, line.split('|'))
+        rules[first][1].add(second)
+        rules[second][0].add(first)
+    for line in b.split('\n')
+        print(line)
+        order = list(map(int, line.split(',')))
+        assert(len(order) % 2 == 1)
+        for i in range(len(order)):
+            wrong = False
+            if any(elem in rules[order[i]][1] for elem in order[:i]):
+                break
+            if any(elem in rules[order[i]][0] for elem in order[i+1:]):
+                break
+        else:
+            res += order[len(order)//2]
+
+    width = len(lines[0])
+    height = len(lines)
+
+    for line in lines:
+        pass
+    print(res)
+
+
+if __name__ == '__main__':
+    run(main, parse)
+

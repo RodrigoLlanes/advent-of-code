@@ -7,4 +7,5 @@ My solutions for [Advent of code 2024](https://adventofcode.com/2024).
 | 2   | [Red-Nosed Reports](https://adventofcode.com/2024/day/2)                      | [02](./02) |
 | 3   | [Mull It Over](https://adventofcode.com/2024/day/3)                           | [03](./03) |
 | 4   | [Ceres Search](https://adventofcode.com/2024/day/4)                           | [04](./04) |
+| 5   | [Print Queue](https://adventofcode.com/2024/day/5)                            | [05](./05) |
 
