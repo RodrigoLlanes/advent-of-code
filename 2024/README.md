@@ -12,4 +12,5 @@ My solutions for [Advent of code 2024](https://adventofcode.com/2024).
 | 7   | [Bridge Repair](https://adventofcode.com/2024/day/7)                          | [07](./07) |
 | 8   | [Resonant Collinearity](https://adventofcode.com/2024/day/8)                  | [08](./08) |
 | 9   | [Disk Fragmenter](https://adventofcode.com/2024/day/9)                        | [09](./09) |
+| 10  | [Hoof It](https://adventofcode.com/2024/day/10)                               | [10](./10) |
 
