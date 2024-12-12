@@ -14,3 +14,4 @@ My solutions for [Advent of code 2024](https://adventofcode.com/2024).
 | 9   | [Disk Fragmenter](https://adventofcode.com/2024/day/9)       | [09](./09) |
 | 10  | [Hoof It](https://adventofcode.com/2024/day/10)              | [10](./10) |
 | 11  | [Plutonian Pebbles](https://adventofcode.com/2024/day/11)    | [11](./11) |
+| 12  | [Garden Groups](https://adventofcode.com/2024/day/12)        | [12](./12) |
