@@ -18,4 +18,6 @@ My solutions for [Advent of code 2024](https://adventofcode.com/2024).
 | 13  | [Claw Contraption](https://adventofcode.com/2024/day/13)     | [13](./13) |
 | 14  | [Restroom Redoubt](https://adventofcode.com/2024/day/14)     | [14](./14) |
 | 15  | [Warehouse Woes](https://adventofcode.com/2024/day/15)       | [15](./15) |
-| 16  | [Reindeer Maze](https://adventofcode.com/2024/day/16)       | [16](./16) |
+| 16  | [Reindeer Maze](https://adventofcode.com/2024/day/16)        | [16](./16) |
+| 17  | [Chronospatial Computer](https://adventofcode.com/2024/day/17)        | [17](./17) |
+
