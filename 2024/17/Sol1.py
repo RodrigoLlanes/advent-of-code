@@ -1,9 +1,6 @@
 from pycp.all import *
 
 
-DIRS = [Point(0, 1), Point(1, 0), Point(0, -1), Point(-1, 0)]
-
-
 def parse(line: str):
     return line
 
