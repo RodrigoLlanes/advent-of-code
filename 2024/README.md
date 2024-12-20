@@ -21,4 +21,5 @@ My solutions for [Advent of code 2024](https://adventofcode.com/2024).
 | 16  | [Reindeer Maze](https://adventofcode.com/2024/day/16)          | [16](./16) |
 | 17  | [Chronospatial Computer](https://adventofcode.com/2024/day/17) | [17](./17) |
 | 18  | [RAM Run](https://adventofcode.com/2024/day/18)                | [18](./18) |
-| 19  | [Linen Layout](https://adventofcode.com/2024/day/19)                | [19](./19) |
+| 19  | [Linen Layout](https://adventofcode.com/2024/day/19)           | [19](./19) |
+| 20  | [Race Condition](https://adventofcode.com/2024/day/20)         | [20](./20) |
