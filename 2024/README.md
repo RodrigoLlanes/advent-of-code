@@ -25,3 +25,4 @@ My solutions for [Advent of code 2024](https://adventofcode.com/2024).
 | 20  | [Race Condition](https://adventofcode.com/2024/day/20)         | [20](./20) |
 | 21  | [Keypad Conundrum](https://adventofcode.com/2024/day/21)       | [21](./21) |
 | 22  | [Monkey Market](https://adventofcode.com/2024/day/22)          | [22](./22) |
+| 23  | [LAN Party](https://adventofcode.com/2024/day/23)              | [23](./23) |

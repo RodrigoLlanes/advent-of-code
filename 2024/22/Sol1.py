@@ -1,10 +1,6 @@
 from pycp.all import *
 
 
-sign = lambda x: -1 if x < 0 else 1
-
-
-
 def parse(line: str):
     return int(line)
 
