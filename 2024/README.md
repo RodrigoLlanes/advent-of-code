@@ -26,3 +26,4 @@ My solutions for [Advent of code 2024](https://adventofcode.com/2024).
 | 21  | [Keypad Conundrum](https://adventofcode.com/2024/day/21)       | [21](./21) |
 | 22  | [Monkey Market](https://adventofcode.com/2024/day/22)          | [22](./22) |
 | 23  | [LAN Party](https://adventofcode.com/2024/day/23)              | [23](./23) |
+| 24  | [Crossed Wires](https://adventofcode.com/2024/day/24)          | [24](./24) |
