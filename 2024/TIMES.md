@@ -1,5 +1,5 @@
-# Advent of code 2023
-My personal times on the [Advent of code 2023](https://adventofcode.com/2023) global leaderboard.
+# Advent of code 2024
+My personal times on the [Advent of code 2024](https://adventofcode.com/2024) global leaderboard.
 
 <table>
     <thead>

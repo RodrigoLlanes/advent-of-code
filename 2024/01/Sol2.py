@@ -1,5 +1,6 @@
-from typing import Counter
-from pycp.all import run, reduce
+from collections import Counter
+
+from pycp.all import run
 
 
 def parse(line: str):
@@ -14,4 +15,3 @@ def main(lines: list[list[int]]):
 
 if __name__ == '__main__':
     run(main, parse)
-
