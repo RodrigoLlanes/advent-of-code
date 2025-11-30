@@ -23,3 +23,8 @@ My solutions for [Advent of code 2024](https://adventofcode.com/2024).
 | 18  | [RAM Run](https://adventofcode.com/2024/day/18)                | [18](./18) |
 | 19  | [Linen Layout](https://adventofcode.com/2024/day/19)           | [19](./19) |
 | 20  | [Race Condition](https://adventofcode.com/2024/day/20)         | [20](./20) |
+| 21  | [Keypad Conundrum](https://adventofcode.com/2024/day/21)       | [21](./21) |
+| 22  | [Monkey Market](https://adventofcode.com/2024/day/22)          | [22](./22) |
+| 23  | [LAN Party](https://adventofcode.com/2024/day/23)              | [23](./23) |
+| 24  | [Crossed Wires](https://adventofcode.com/2024/day/24)          | [24](./24) |
+| 25  | [Code Chronicle](https://adventofcode.com/2024/day/25)         | [25](./25) |
