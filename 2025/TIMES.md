@@ -1,0 +1,15 @@
+# Advent of code 2025
+My personal times on the [Advent of code 2025](https://adventofcode.com/2025) global leaderboard.
+
+<table>
+    <thead>
+        <tr>
+            <th>Day</th>
+            <th >Part 1</th>
+            <th >Part 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>1</td> <td>00:05:27</td> <td>00:21:17</td> </tr>
+    </tbody>
+</table>
