@@ -11,5 +11,6 @@ My personal times on the [Advent of code 2025](https://adventofcode.com/2025) gl
     </thead>
     <tbody>
         <tr><td>1</td> <td>00:05:27</td> <td>00:21:17</td> </tr>
+        <tr><td>1</td> <td>00:04:59</td> <td>00:12:31</td> </tr>
     </tbody>
 </table>

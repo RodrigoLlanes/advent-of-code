@@ -2,14 +2,14 @@
 My solutions for the [Advent of code](https://adventofcode.com) contests I have competed in:
 
 | Year                                  | Solution                           | Stars | Times                         |
-|---------------------------------------|------------------------------------|------|-------------------------------|
-| [2019](https://adventofcode.com/2019) | [2019 solutions](./2019/README.md) | 50*  | [2019 times](./2019/TIMES.md) |
-| [2020](https://adventofcode.com/2020) | [2020 solutions](./2020/README.md) | 50*  | [2020 times](./2020/TIMES.md) |
-| [2021](https://adventofcode.com/2021) | [2021 solutions](./2021/README.md) | 50*  | [2021 times](./2021/TIMES.md) |
-| [2022](https://adventofcode.com/2022) | [2022 solutions](./2022/README.md) | 50*  | [2022 times](./2022/TIMES.md) |
-| [2023](https://adventofcode.com/2023) | [2023 solutions](./2023/README.md) | 50*  | [2023 times](./2023/TIMES.md) |
-| [2024](https://adventofcode.com/2024) | [2024 solutions](./2024/README.md) | 50*  | [2024 times](./2024/TIMES.md) |
-| [2025](https://adventofcode.com/2025) | [2025 solutions](./2025/README.md) | 50*  | [2025 times](./2025/TIMES.md) |
+|---------------------------------------|------------------------------------|-------|-------------------------------|
+| [2019](https://adventofcode.com/2019) | [2019 solutions](./2019/README.md) | 50*   | [2019 times](./2019/TIMES.md) |
+| [2020](https://adventofcode.com/2020) | [2020 solutions](./2020/README.md) | 50*   | [2020 times](./2020/TIMES.md) |
+| [2021](https://adventofcode.com/2021) | [2021 solutions](./2021/README.md) | 50*   | [2021 times](./2021/TIMES.md) |
+| [2022](https://adventofcode.com/2022) | [2022 solutions](./2022/README.md) | 50*   | [2022 times](./2022/TIMES.md) |
+| [2023](https://adventofcode.com/2023) | [2023 solutions](./2023/README.md) | 50*   | [2023 times](./2023/TIMES.md) |
+| [2024](https://adventofcode.com/2024) | [2024 solutions](./2024/README.md) | 50*   | [2024 times](./2024/TIMES.md) |
+| [2025](https://adventofcode.com/2025) | [2025 solutions](./2025/README.md) | 4*    | [2025 times](./2025/TIMES.md) |
 
 
 My solutions for the [Advent of code](https://adventofcode.com) contests I have used to practice:
