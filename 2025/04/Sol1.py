@@ -5,8 +5,10 @@ def parse(line):
     return list(line)
 
 
-def step(grid, h, w):
-    coords = set()
+def main(lines):
+    grid = Grid(lines)
+    h, w = len(lines), len(lines[0])
+    count = 0
     for pos, v in grid.items():
         if v != '@':
             continue
@@ -21,22 +23,7 @@ def step(grid, h, w):
                 continue
             neighbours += 1
         if neighbours < 4:
-            coords.add(pos)
-    for coord in coords:
-        grid[coord] = '.'
-
-    return grid, len(coords)
-
-
-def main(lines):
-    grid = Grid(lines)
-    h, w = len(lines), len(lines[0])
-    count = 0
-    while True:
-        grid, n = step(grid, h, w)
-        if n == 0:
-            break
-        count += n
+            count += 1
     print(count)
 
 
