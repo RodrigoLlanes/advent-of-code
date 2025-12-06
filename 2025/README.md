@@ -8,3 +8,4 @@ My solutions for [Advent of code 2025](https://adventofcode.com/2025).
 | 3   | [Lobby](https://adventofcode.com/2025/day/3)               | [03](./03) |
 | 4   | [Printing Department](https://adventofcode.com/2025/day/4) | [04](./04) |
 | 5   | [Cafeteria](https://adventofcode.com/2025/day/5)           | [05](./05) |
+| 6   | [Trash Compactor](https://adventofcode.com/2025/day/6)     | [06](./06) |
