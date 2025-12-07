@@ -9,7 +9,7 @@ My solutions for the [Advent of code](https://adventofcode.com) contests I have 
 | [2022](https://adventofcode.com/2022) | [2022 solutions](./2022/README.md) | 50*   | [2022 times](./2022/TIMES.md) |
 | [2023](https://adventofcode.com/2023) | [2023 solutions](./2023/README.md) | 50*   | [2023 times](./2023/TIMES.md) |
 | [2024](https://adventofcode.com/2024) | [2024 solutions](./2024/README.md) | 50*   | [2024 times](./2024/TIMES.md) |
-| [2025](https://adventofcode.com/2025) | [2025 solutions](./2025/README.md) | 12*   | [2025 times](./2025/TIMES.md) |
+| [2025](https://adventofcode.com/2025) | [2025 solutions](./2025/README.md) | 14*   | [2025 times](./2025/TIMES.md) |
 
 
 My solutions for the [Advent of code](https://adventofcode.com) contests I have used to practice:
