@@ -39,7 +39,5 @@ def main(lines):
     print(s)
 
 
-
-
 if __name__ == '__main__':
     run(main, parse)

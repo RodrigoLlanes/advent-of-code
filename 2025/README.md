@@ -13,3 +13,4 @@ My solutions for [Advent of code 2025](https://adventofcode.com/2025).
 | 8   | [Playground](https://adventofcode.com/2025/day/8)          | [08](./08) |
 | 9   | [Movie Theater](https://adventofcode.com/2025/day/9)       | [09](./09) |
 | 10  | [Factory](https://adventofcode.com/2025/day/10)            | [10](./10) |
+| 11  | [Reactor](https://adventofcode.com/2025/day/11)            | [11](./11) |
